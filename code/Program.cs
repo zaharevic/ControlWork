@@ -28,6 +28,7 @@ string[] StringLenghtLessThree(string[] array){
     return temporarryArray;
 }
 void PrintArray(string[] arr){
+    Console.Write($"Ответ: \n");
     for(int i = 0; i < arr.Length; i++){
         Console.Write($"{arr[i]} ");
     }
